@@ -13,7 +13,6 @@ public class Main {
         book1.setYear(1933);
         System.out.println("Год издания книги " + book1.getTitle()+ " - "+ book1.getYear()+ "; Автор книги "+ book1.getAuthor().getName()+ " "+ book1.getAuthor().getSurname());
 
-
         System.out.println(book1);
 
         System.out.println(book1.hashCode() == book2.hashCode());
